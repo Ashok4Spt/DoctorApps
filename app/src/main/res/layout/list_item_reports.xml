@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/reportsItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/_4sdp"
+            android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/previewImageView"
+                android:layout_width="@dimen/_64sdp"
+                android:layout_height="@dimen/_70sdp"
+                />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:paddingTop="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp"
+                android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/reportsUploadBy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="1"
+                android:drawablePadding="@dimen/_5sdp"
+                android:textColor="@color/colorBlack"
+                android:textAllCaps="true"
+                android:text="Receipt by User 1"
+                android:textSize="@dimen/_11ssp"
+                app:fontFamily="@font/biryani_light"/>
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/reportsUploadDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:layout_weight="1"
+                android:textColor="@color/colorBlack"
+                android:text="Friday | 09 Aug 2019, 8:00 PM - 8:30 PM"
+                android:textSize="@dimen/_13ssp"
+                app:fontFamily="@font/biryani_bold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+            android:id="@+id/reportsDivider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:alpha="0.6"
+            android:background="@color/colorAccent"/>
+</LinearLayout>

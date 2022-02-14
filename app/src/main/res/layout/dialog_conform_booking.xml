@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_margin="@dimen/_18sdp"
+              android:background="@color/colorWhite">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_42sdp"
+                android:gravity="center_vertical"
+                android:text="Confirm Appointment"
+                android:padding="@dimen/_10sdp"
+                app:fontFamily="@font/biryani_bold"
+                android:textSize="@dimen/_14ssp"
+                android:layout_weight="1"
+                android:textColor="@color/colorWhite"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_48sdp"
+                android:layout_height="@dimen/_48sdp"
+                android:id="@+id/confirmClose"
+                android:padding="@dimen/_13sdp"
+                app:srcCompat="@drawable/ic_close"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Do you wish to confirm your time selection ?"
+            android:padding="@dimen/_14sdp"
+            app:fontFamily="@font/biryani"
+            android:textSize="@dimen/_14ssp"
+            android:layout_weight="1"
+            android:textColor="@color/colorBlack90"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/selectedSlotTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="12/08/2019 | 10:30 AM - 11:00 AM"
+            android:paddingLeft="@dimen/_14sdp"
+            android:paddingRight="@dimen/_14sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            app:fontFamily="@font/biryani"
+            android:textSize="@dimen/_12ssp"
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/colorEditBox"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_42sdp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/confirmCancel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="CANCEL"
+                app:fontFamily="@font/biryani_bold"
+                android:textSize="@dimen/_12ssp"
+                android:layout_weight="1"
+                android:textColor="@color/colorAccent"/>
+
+        <View
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="match_parent"
+                android:background="@color/colorEditBox"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/confirmText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="CONFIRM"
+                app:fontFamily="@font/biryani_bold"
+                android:textSize="@dimen/_12ssp"
+                android:layout_weight="1"
+                android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+</LinearLayout>

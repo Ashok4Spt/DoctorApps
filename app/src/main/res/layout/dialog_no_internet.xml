@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:fontFamily="" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/errorMsgTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="start"
+        android:text=""
+        android:textColor="@color/colorErrorRed"
+        android:textSize="11sp"
+        android:visibility="gone"
+        app:fontFamily="sans-serif" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/agePositiveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/color_primary_button"
+        android:padding="6dp"
+        android:text=""
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="14sp"
+        app:fontFamily="@font/biryani_bold" />
+</LinearLayout>

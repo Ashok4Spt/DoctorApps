@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+    <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_nav_doctor"
+            android:title="Doctor's Profile"/>
+    <item
+            android:id="@+id/nav_appointments"
+            android:icon="@drawable/ic_appointment"
+            android:title="Appointments"/>
+    <item
+            android:id="@+id/nav_upload_reports"
+            android:icon="@drawable/ic_upload_reports"
+            android:title="Upload Reports"/>
+    <item
+            android:id="@+id/nav_medicine_remainder"
+            android:icon="@drawable/ic_medicine_reminder"
+            android:title="Medicine Remainder"/>
+    <item
+            android:id="@+id/nav_testimonials"
+            android:icon="@drawable/ic_testimonials"
+            android:title="Testimonials"/>
+    <item
+            android:id="@+id/nav_image_gallery"
+            android:icon="@drawable/ic_gallery"
+            android:title="Image Gallery"/>
+    <item
+            android:id="@+id/nav_blog"
+            android:icon="@drawable/ic_blogger"
+            android:title="Doctor's Blog"/>
+    <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/ic_testimonials"
+            android:title="Contact Us"/>
+
+
+</menu>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/_8sdp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/timeCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:elevation="6dp"
+            android:layout_marginTop="@dimen/_1sdp"
+            app:cardCornerRadius="6dp">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorGreen"
+                    android:gravity="center">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_notification"
+                        />
+                <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/medicineRemainderTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:layout_marginLeft="@dimen/_6sdp"
+                        android:textColor="@color/colorWhite"
+                        android:text=""
+                        android:textAllCaps="true"
+                        android:paddingTop="@dimen/_4sdp"
+                        android:textSize="@dimen/_13ssp"
+                        app:fontFamily="@font/biryani_semibold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_10sdp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/medicineRemainderListRecycleView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                </androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

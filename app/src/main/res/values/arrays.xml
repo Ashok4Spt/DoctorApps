@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="IntakeType">
+        <item>Select Intake Type</item>
+        <item>Oral</item>
+        <item>Injection</item>
+        <item>Left-Ear</item>
+        <item>Right-Ear</item>
+        <item>Left-Eye</item>
+        <item>Right-Eye</item>
+        <item>Rectum</item>
+        <item>Nose</item>
+    </string-array>
+
+    <string-array name="DosageType">
+        <item>Select Dosage Type</item>
+        <item>Tablet</item>
+        <item>Syrup</item>
+        <item>Injection</item>
+        <item>Drops</item>
+        <item>Cream</item>
+    </string-array>
+    <string-array name="WhenToTake">
+        <item>Select When To Take</item>
+        <item>Before Meal</item>
+        <item>After Meal</item>
+        <item>Any Time</item>
+    </string-array>
+
+
+    <string-array name="Strength">
+        <item>mg</item>
+        <item>ml</item>
+        <item>mcg</item>
+        <item>drops</item>
+    </string-array>
+
+</resources>

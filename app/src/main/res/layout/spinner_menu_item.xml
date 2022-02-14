@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/_5sdp"
+        android:paddingRight="@dimen/_5sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:layout_height="wrap_content">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtDropDownLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:layout_marginStart="6dp"
+            android:gravity="center_vertical"
+            android:text="Residential"
+            android:textSize="@dimen/_14ssp"
+            android:fontFamily="@font/biryani_semibold"
+            android:textColor="@color/colorBlack90"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgDropDownMenuIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_arrow_drop_down"/>
+</LinearLayout>

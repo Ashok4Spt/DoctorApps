@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatCheckedTextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/locationCheckedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="?android:listChoiceIndicatorSingle"
+        android:gravity="center_vertical"
+        android:padding="@dimen/_6sdp"
+        android:maxLines="2"
+        android:textColor="@drawable/location_text_selector"
+        android:drawablePadding="@dimen/_8sdp"
+        android:textSize="@dimen/_12ssp"
+        android:drawableTint="@color/colorPrimary"
+        android:drawableLeft="@drawable/ic_location"
+        android:fontFamily="@font/biryani">
+
+</androidx.appcompat.widget.AppCompatCheckedTextView>

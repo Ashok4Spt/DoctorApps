@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:progressTint="@color/colorWhite" />
+
+        <com.tulasimultispecialityhospital.util.TouchImageView
+            android:id="@+id/full_bottle_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="matrix" />
+
+        <TextView
+            android:id="@+id/full_bottle_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#85C2C2C2"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Product Title"
+            android:textAppearance="@android:style/TextAppearance.Holo.Widget.ActionBar.Title"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/downloadVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorBlack60"
+            app:srcCompat="@drawable/ic_file_download"
+            />
+    </RelativeLayout>
+
+</FrameLayout>

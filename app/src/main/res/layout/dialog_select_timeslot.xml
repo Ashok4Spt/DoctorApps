@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorBackground">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="center_vertical"
+            android:background="@color/colorPrimary">
+
+        <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:fontFamily="@font/biryani_bold"
+                android:textColor="@color/colorWhite"
+                android:padding="@dimen/_10sdp"
+                android:text="Select Time Slot"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.WindowTitle"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_48sdp"
+                android:layout_height="@dimen/_48sdp"
+                android:id="@+id/close"
+                android:padding="@dimen/_13sdp"
+                app:srcCompat="@drawable/ic_close"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorWhite">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/timeSlotsRecycleView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/_4sdp"
+                android:paddingBottom="14dp"/>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="Appointment Fee"
+                    android:textSize="@dimen/_11ssp"
+                    app:fontFamily="@font/biryani_bold"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/appointmentFee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:textColor="@color/colorAccent"
+                    android:text="Rs 300"
+                    android:textSize="@dimen/_11ssp"
+                    app:fontFamily="@font/biryani_bold"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:text=" ( Single Consultation )"
+                    android:textSize="@dimen/_11ssp"
+                    app:fontFamily="@font/biryani"/>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_34sdp"
+                android:id="@+id/bookAppointmentButton"
+                android:text="           Book Appointment           "
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:layout_margin="@dimen/_16sdp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorWhite"
+                android:fontFamily="@font/biryani_bold"
+                android:background="@drawable/color_primary_button"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#124E91</color>
+    <color name="colorPrimaryCenter">#E60e3c71</color>
+    <color name="colorPrimaryDark">#0e3c71</color>
+    <color name="colorFormLabel">#124E91</color>
+    <color name="colorAccent">#DE413C</color>
+    <color name="colorPrimary90">#90124E91</color>
+    <color name="colorEditBox">#C2C2C2</color>
+    <color name="colorEditSolid">#90C9C9C9</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhiteAlpha">#E6FFFFFF</color>
+    <color name="colorBlackAlpha">#647483</color>
+    <color name="colorBlack90">#E6000000</color>
+    <color name="colorBlack60">#90000000</color>
+    <color name="colorBackground">#DFDFDF</color>
+    <color name="colorGreen">#23A968</color>
+    <color name="colorGreenAnimation">#77B43F</color>
+    <color name="colorImageError">#E8EDF1</color>
+    <color name="colorBlack20">#66000000</color>
+    <color name="colorErrorRed">#e40000</color>
+    <color name="colorAvailability">#6EB005</color>
+
+    <!--058593-->
+    <!--Present color 1A74EA-->
+    <!--<color name="colorPrimary">#0D64D2</color>-->
+    <!--<color name="colorPrimaryCenter">#0c5ac0</color>-->
+    <!--<color name="colorPrimaryDark">#0b4fa8</color>-->
+    <!--<color name="colorFormLabel">#0D64D2</color>-->
+    <!--<color name="colorAccent">#FF0080</color>-->
+
+
+
+    <!--<color name="colorPrimary">#1A2253</color>-->
+    <!--<color name="colorPrimaryCenter">#0E1B58</color>-->
+    <!--<color name="colorPrimaryDark">#0C1649</color>-->
+    <!--<color name="colorFormLabel">#1A2253</color>-->
+    <!--<color name="colorAccent">#DE413C</color>-->
+</resources>

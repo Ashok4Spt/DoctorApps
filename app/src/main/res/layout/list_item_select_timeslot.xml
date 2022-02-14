@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/timeSlotSelectionItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:background="@drawable/timeslot_box_primary_line"
+        android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/timeSlotText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="2"
+            android:textColor="@color/colorBlack"
+            android:text="10:00 am - 10:30 AM"
+            android:textSize="@dimen/_12ssp"
+            android:textAllCaps="true"
+            app:fontFamily="@font/biryani_bold"/>
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/timeSlotStatusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:layout_marginTop="@dimen/_minus5sdp"
+            android:textColor="@color/colorBlack"
+            android:text="Select Appointment Type"
+            android:textSize="@dimen/_9ssp"
+            app:fontFamily="@font/biryani"/>
+</LinearLayout>

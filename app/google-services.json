@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "126711835642",
+    "firebase_url": "https://my-doctor-appointment.firebaseio.com",
+    "project_id": "my-doctor-appointment",
+    "storage_bucket": "my-doctor-appointment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126711835642:android:4af9d5d1d65ec2563f1243",
+        "android_client_info": {
+          "package_name": "com.mydoctorappointment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126711835642-s7s60033p25jjhpm0lqi52u51v278le3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mydoctorappointment",
+            "certificate_hash": "54b602ed3ad28acaf687f811a9b743b93d00a40d"
+          }
+        },
+        {
+          "client_id": "126711835642-80tqtjad0iblmm1qsal4nau9pb3deciq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mydoctorappointment",
+            "certificate_hash": "6d371bbecb868f34e325f0100894ed82fc11a5a2"
+          }
+        },
+        {
+          "client_id": "126711835642-1pu0510vpjugdc07slepi7l296v6nvo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrJrvT3D4PetUjOvqnSlk7wkxhFQQov6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126711835642-1pu0510vpjugdc07slepi7l296v6nvo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126711835642:android:0a140255dc013b5a3f1243",
+        "android_client_info": {
+          "package_name": "com.tulasimultispecialityhospital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126711835642-un5krgdmunoak08o6u79r8b319gnakc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tulasimultispecialityhospital",
+            "certificate_hash": "54b602ed3ad28acaf687f811a9b743b93d00a40d"
+          }
+        },
+        {
+          "client_id": "126711835642-t9n08iusuaehmkt86q7shh4ocn1agff9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tulasimultispecialityhospital",
+            "certificate_hash": "6d371bbecb868f34e325f0100894ed82fc11a5a2"
+          }
+        },
+        {
+          "client_id": "126711835642-1pu0510vpjugdc07slepi7l296v6nvo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrJrvT3D4PetUjOvqnSlk7wkxhFQQov6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126711835642-1pu0510vpjugdc07slepi7l296v6nvo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

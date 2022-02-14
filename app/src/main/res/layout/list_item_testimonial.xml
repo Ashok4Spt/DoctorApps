@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical">
+
+
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:elevation="6dp"
+            android:layout_marginTop="@dimen/_12sdp"
+            app:cardCornerRadius="6dp">
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_double_quotes"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_14sdp"
+                    android:elevation="@dimen/_10sdp"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/testimonialDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:textColor="@color/colorBlack90"
+                    android:text=""
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:paddingRight="@dimen/_20sdp"
+                    android:textSize="@dimen/_12ssp"
+                    app:fontFamily="@font/biryani"/>
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/testimonialAuthor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:textColor="@color/colorPrimary"
+                    android:text=""
+                    android:padding="@dimen/_6sdp"
+                    android:textSize="@dimen/_13ssp"
+                    app:fontFamily="@font/biryani_bold"/>
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_double_quotes"
+                    android:layout_marginRight="@dimen/_14sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_gravity="right"
+                    android:elevation="@dimen/_10sdp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

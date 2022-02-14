@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/appointmentTypeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="@dimen/_6sdp"
+        android:maxLines="1"
+        android:textColor="@color/colorBlack90"
+        android:textSize="@dimen/_12ssp"
+        android:fontFamily="@font/biryani">
+
+</androidx.appcompat.widget.AppCompatTextView>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TULASI MULTI SPECIALITY HOSPITAL</string>
+    <string name="new_register_here">New Member ? &lt;font color="#DE413C"&gt;&lt;b&gt;Register Here!&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="dummy_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever.Printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into.\n\n Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever. Printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into.</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="doctor_id">180</string>
+</resources>

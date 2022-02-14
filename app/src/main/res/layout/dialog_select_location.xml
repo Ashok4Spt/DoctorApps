@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:orientation="vertical"
+              android:background="@color/colorWhite"
+              android:padding="@dimen/_6sdp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Select Location"
+            app:fontFamily="@font/biryani_bold"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/colorPrimary"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/locationsRecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="14dp"/>
+</LinearLayout>
